@@ -177,7 +177,7 @@ header {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    background-image: url("/images/1920x330-lente-2022-terras-ijsje-anp.jpg");
+    background-image: url("images/1920x330-lente-2022-terras-ijsje-anp.jpg");
     background-repeat: round;
     background-size: 100% 100%;
 }
@@ -255,7 +255,7 @@ header {
 
 #search-submit:hover {
     background-color:black;
-    background-image: url("/images/search2-invert.png");
+    background-image: url("images/search2-invert.png");
 }
 
 .fourItems>ul:nth-child(1) {
@@ -506,7 +506,7 @@ div.column:nth-child(2)>h2:nth-child(1) {
   }
 
   #search-submit {
-    background-image: url("/images/search2.png");
+    background-image: url("images/search2.png");
     color: transparent;                   /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;  
