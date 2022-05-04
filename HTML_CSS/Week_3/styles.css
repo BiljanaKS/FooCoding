@@ -1,0 +1,515 @@
+/* Font for everything, just the same as the normal website */
+
+:root {
+    font-family: "RO Sans", Calibri, sans-serif;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.editorial-navigation h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: black;
+}
+
+a:link {
+    color: #01689b;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* Removing from Display that which has no place */
+
+.more {
+    display: none;
+}
+
+section.brickRow:nth-child(2)>h2:nth-child(1) {
+    display: none;
+}
+
+section.brickRow:nth-child(1)>h2:nth-child(1) {
+    display: none;
+}
+
+section.brickRow:nth-child(1)>div:nth-child(4)>a:nth-child(1)>div:nth-child(2)>figure:nth-child(1)>footer:nth-child(2)>small:nth-child(1) {
+    display: none;
+}
+
+section.brickRow:nth-child(1)>div:nth-child(2)>a:nth-child(1)>div:nth-child(2)>figure:nth-child(1)>footer:nth-child(2)>small:nth-child(1) {
+    display: none;
+}
+
+h1.assistive {
+    display: none;
+}
+
+.skiplinks {
+    display: none;
+}
+
+#breadCrumbNavLabel {
+    display: none;
+}
+
+#search-form>label:nth-child(1) {
+    display: none;
+}
+
+.slide>figure:nth-child(1)>footer:nth-child(2)>small:nth-child(1) {
+    display: none;
+}
+
+/* Go to the very edges, no margins */
+
+#government {
+    margin: 0;
+}
+
+/* Mainwrapper WAS set as Grid (not anymore because it broke resizing)  in order to make a box around all of the content so that elements won't go outside of bounds/browser. */
+
+#mainwrapper {
+    /*  display: grid; */
+}
+
+/* Logo stays in the middle */
+
+.logo>div:nth-child(1) {
+    text-align: center;
+}
+
+header {
+    margin: 0 auto;
+    padding-bottom: 1.2%;
+}
+
+/* Navigation Bar Styling */
+
+#navBar {
+    padding: 5px;
+    background-color: #01689b;
+    /* Align-items: center; */
+}
+
+/* Main Menu is right and the other Links are left */
+
+.breadCrumbNav {
+    float: left;
+    padding-top: 15px;
+}
+
+.mainNav {
+    float: right;
+    margin-right: 100px;
+}
+
+.breadCrumbNav>a:nth-child(2) {
+    margin-left: 100px;
+}
+
+.topTaskNavigation>ul:nth-child(2) {
+    padding-right: 5%;
+    padding-bottom: 5%;
+    color: #2f83ad;
+    line-height: 2;
+}
+
+.topTaskNavigation>h2:nth-child(1) {
+    padding-top: 5%;
+    padding-left: 5%;
+    font-weight: normal;
+}
+
+#topMenu {
+    display: flex;
+    /*   justify-content: flex-end; 
+    align-items: center; */
+}
+
+#topMenu>li:nth-child(n + 1) {
+    /* display: flex; */
+    margin-right: 10px;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+/* Just enough for Menu & Links, but don't follow SearchForm */
+
+#navBar>div:nth-child(1) {
+    /*   max-height: 1px; */
+    max-height: 62px;
+}
+
+/* Search Form going downwards */
+#searchForm {
+    padding-top: 120px;
+    padding-left: 80%;
+}
+
+/* Veel Bekeken is put in a grid and the first child is centered and colored */
+
+/* .headerImage>div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items:   center;
+
+} */
+
+.topTaskNavigation {
+    background-color: #ffffff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.slide>figure:nth-child(1) {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+
+.headerImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-image: url("/images/1920x330-lente-2022-terras-ijsje-anp.jpg");
+    background-repeat: round;
+    background-size: 100% 100%;
+}
+
+.slide>figure:nth-child(1)>picture:nth-child(1) {
+    display: none;
+}
+
+/* --------------------------------------------------Visual Appearance -------------------------------------------------------------*/
+
+/* Navigation Bar Font Size */
+
+.breadCrumbNav>a:nth-child(2) {
+    padding-top: 25px;
+    font-size: x-large;
+}
+
+#topMenu {
+    list-style: none;
+    font-size: larger;
+}
+
+/* Navigation Bar Color */
+
+.breadCrumbNav>a:nth-child(2) {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.breadCrumbNav>a:nth-child(2):hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#topMenu a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#topMenu a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#topMenu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#topMenu a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* BUTTON LOOK */
+#search-submit {
+    box-sizing: border-box;
+
+}
+
+#search-keyword {
+    padding: 15px;
+    margin-right: -6px;
+    font-size: 17px;
+    margin-left: -60%;
+}
+
+#search-submit {
+    box-sizing: border-box;
+    padding: 16px;
+    background: white;
+    font-size: 17px;
+    border: none;
+}
+
+#search-submit:hover {
+    background-color:black;
+    background-image: url("/images/search2-invert.png");
+}
+
+.fourItems>ul:nth-child(1) {
+    list-style: none;
+}
+
+h2.assistive {
+    display: none;
+}
+
+.fourItems>ul:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-weight: normal;
+    grid-gap: 16px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.editorial-navigation {
+    background-color: #f3f3f3;
+}
+
+.editorial-navigation>div:nth-child(1) {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+section.brickRow:nth-child(1) {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 0px;
+}
+
+section.brickRow:nth-child(1) img {
+    height: 100%;
+    width: 100%;
+}
+
+section.brickRow:nth-child(1) h3 {
+    margin: 40px;
+}
+
+section.brickRow:nth-child(1) p {
+    margin: 40px;
+}
+
+div.wrapper:nth-child(3) {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+section.brickRow:nth-child(2) {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    margin-top: 25px;
+    margin-left: 35px;
+    /*   margin-bottom: -10%; */
+}
+
+.fullWidthSection {
+    margin-bottom: 5%;
+}
+
+/* Bold the Dates like in the original */
+
+section.brickRow:nth-child(2)>div:nth-child(2)>a:nth-child(1)>div:nth-child(2)>p:nth-child(1)>span:nth-child(1) {
+    font-weight: bold;
+}
+
+section.brickRow:nth-child(2)>div:nth-child(3)>a:nth-child(1)>div:nth-child(2)>p:nth-child(1)>span:nth-child(1) {
+    font-weight: bold;
+}
+
+section.brickRow:nth-child(2)>div:nth-child(4)>a:nth-child(1)>div:nth-child(2)>p:nth-child(1)>span:nth-child(1) {
+    font-weight: bold;
+}
+
+section.brickRow:nth-child(2)>div:nth-child(5)>a:nth-child(1)>div:nth-child(2)>p:nth-child(1)>span:nth-child(1) {
+    font-weight: bold;
+}
+
+section.brickRow:nth-child(2)>div:nth-child(6)>a:nth-child(1)>div:nth-child(2)>p:nth-child(1)>span:nth-child(1) {
+    font-weight: bold;
+}
+
+section.brickRow:nth-child(2)>div:nth-child(7)>a:nth-child(1)>div:nth-child(2)>p:nth-child(1)>span:nth-child(1) {
+    font-weight: bold;
+}
+
+div.wrapper:nth-child(3)>aside:nth-child(4) {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 30px;
+    margin-left: 35px;
+    margin-bottom: 5%;
+}
+
+.st0 {
+    fill: white;
+    stroke: #cbd2e3;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+.banner .st3 {
+    font-size: 22px;
+}
+
+.banner .st2 {
+    font-weight: bold;
+}
+
+.banner .st1 {
+    fill: #1b5e84;
+}
+
+.banner .st4 {
+    font-size: 31px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-footer>div:nth-child(1) {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 30px;
+    background-color: #01689b;
+}
+
+div.column:nth-child(2) {
+    justify-content: right;
+    display: grid;
+}
+
+div.column:nth-child(3) {
+    display: grid;
+}
+
+.site-footer .payoff span {
+    color: #fff;
+    font-family: "RO Serif";
+    font-size: 1.2rem;
+    line-height: .9865403685;
+    font-weight: normal;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div.column:nth-child(2)>ul:nth-child(2) li a {
+    color: white;
+}
+
+div.column:nth-child(3)>ul:nth-child(2) li a {
+    color: white;
+}
+
+.site-footer .column h2 {
+    font-size: 1.6018066406rem;
+    line-height: 1.2485901539;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+div.column:nth-child(2)>ul:nth-child(2) {
+    line-height: 2;
+    color: white;
+}
+
+div.column:nth-child(3)>ul:nth-child(2) {
+    line-height: 2;
+    color: white;
+}
+
+div.column:nth-child(2)>h2:nth-child(1) {
+    margin-left: 20px;
+}
+
+.payoff>span:nth-child(1) {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.payoff>span:nth-child(1) {
+    margin-top: 30px;
+}
+
+.languages>div:nth-child(1)>ul:nth-child(1) {
+    display: flex;
+    /* grid-auto-flow: row; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.languages>div:nth-child(1) {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#mainwrapper > footer > div.languages > div > ul > li.selected {
+    margin-top: 8px;
+}
+
+.languages .wrapper ul a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    -webkit-transition: color .3s,background-color .3s ease;
+    transition: color .3s,background-color .3s ease;
+    text-decoration: none;
+    border: 1px solid #b2d7ee;
+    position: relative;
+   
+  }
+
+  .languages > div:nth-child(1) > ul:nth-child(1) {
+    list-style-type: none;
+  }
+
+  .selected {
+      font-weight: bold;
+  }
+
+  /* Bullets Symbols Change */
+
+  #content-wrapper > div.headerImage.smallHeaderImage.topTask > div.wrapper > div > ul {
+    list-style-type: disclosure-closed;
+  }
+
+  #mainwrapper > footer > div.wrapper > div:nth-child(2) > ul {
+      list-style-type: disclosure-closed;
+  }
+
+  #mainwrapper > footer > div.wrapper > div:nth-child(3) > ul {
+      list-style-type: disclosure-closed;
+  }
+
+  #search-submit {
+    background-image: url("/images/search2.png");
+    color: transparent;                   /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    border: solid gray 1px;
+  
+  }
