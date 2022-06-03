@@ -1,14 +1,12 @@
 body {
-    background-color: whitesmoke;
+    background-color: darkred;
 }
 
 ul {
-    list-style-type:none
-/*    display: grid; 
-  grid-auto-columns: 1fr; 
-  grid-auto-rows: 1fr; 
+    list-style-type:none;
+    display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-gap: 1%;
 }
 
 ul li {
@@ -17,6 +15,7 @@ ul li {
     height: 100%;
     width: 100%;
     margin-bottom: 100px;
+    background-color: navajowhite;
 }
 
 ul li ul {

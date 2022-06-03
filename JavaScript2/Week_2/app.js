@@ -8,7 +8,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: J.K Rowling",
-          "image": '<img src="./img/harry.jpg"/>',
+          "image": '<img src="./img/harry.jpg" width="300" height="300"/>',
         },
       },
       {
@@ -16,7 +16,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Frank Herbert",
-          "image": '<img src="./img/dune.jpg"/>',
+          "image": '<img src="./img/dune.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -24,7 +24,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: David Eagleman",
-          "image": '<img src="./img/brain.jpg"/>',
+          "image": '<img src="./img/brain.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -32,7 +32,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Albert Camus",
-          "image": '<img src="./img/fall.jpg"/>',
+          "image": '<img src="./img/fall.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -40,7 +40,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Arthur Conan Doyle",
-          "image": '<img src="./img/sherlock.jpg"/>',
+          "image": '<img src="./img/sherlock.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -48,7 +48,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Harper Lee",
-          "image": '<img src="./img/bird.jpg"/>',
+          "image": '<img src="./img/bird.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -56,7 +56,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: George Orwell",
-          "image": '<img src="./img/1984.jpg"/>',
+          "image": '<img src="./img/1984.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -64,7 +64,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Vladimir Nabokov",
-          "image": '<img src="./img/lolita.jpg"/>',
+          "image": '<img src="./img/lolita.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -72,7 +72,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Toni Morrison",
-          "image": '<img src="./img/beloved.jpg"/>',
+          "image": '<img src="./img/beloved.jpg" width="300" height="300"/>',
         }
       },
       {
@@ -80,7 +80,7 @@
         "attributes": {
           "language": "Language: English",
           "author": "Author: Ralph Ellison",
-          "image": '<img src="./img/invisible.jpg"/>',
+          "image": '<img src="./img/invisible.jpg" width="300" height="300"/>',
         }
       },
     ]
