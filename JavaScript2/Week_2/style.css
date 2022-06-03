@@ -9,16 +9,24 @@ ul {
   grid-gap: 1%;
 }
 
+img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 ul li {
-    border: 1px solid gainsboro;
-    display: block;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 100px;
+    border: 20px solid gainsboro;
     background-color: navajowhite;
+    text-align: center;
+    
 }
 
 ul li ul {
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ddd; /* Add a thin border to each list item */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Add a grey background color */
+    padding: 12px; /* Add some padding */
 }
