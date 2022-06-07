@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+.dance_image {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+   
+  }
+
+  @-webkit-keyframes bg {
+    from, to { background: yellow; }
+    33% { background: green; }
+    66% { background: blue; }
+}
+
+button {
+    font-size:150%;
+    padding:.3em .6em;
+    background:yellow;
+    -webkit-animation:bg 5s infinite;
+    
+}
+
+img {
+        font-size:200%;
+        padding:.3em .5em;
+        background:yellow;
+        -webkit-animation:bg 5s infinite;
+        width:150px;
+        height:150px;
+
+}
+
