@@ -23,3 +23,5 @@ Week 1 - Homework: https://biljanaks.github.io/FooCoding/JavaScript2/Week_1/
 Week 2 - Homework: https://biljanaks.github.io/FooCoding/JavaScript2/Week_2/
 
 Week 3 - Homework: https://biljanaks.github.io/FooCoding/JavaScript2/Week_3/3/
+
+Week 4 - Homework: https://github.com/BiljanaKS/FooCoding/tree/main/JavaScript2/Week4
